@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #ffb703, #bb0523);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  width: 450px;
+  padding: 1rem;
+}
+
+.list-group-item{
+  margin-bottom: 5px;
+}
+
+.list-group-item:hover{
+  opacity:0.8;
+  background-color: gray;
+  color: #fff;
+}
+
+.success{
+  background-color: green;
+  color: #fff;
+  cursor: no-drop;
+}
+
+.danger{
+  background-color: red;
+  color: #fff;
+  cursor: no-drop;
+}
